@@ -2,8 +2,8 @@
 //  GameAITests.swift
 //  TicTacToeTests
 //
-//  Created by Andrew R Madsen on 9/11/18.
-//  Copyright © 2018 Lambda School. All rights reserved.
+//  Created by Angel Buenrostro on 3/6/19.
+//  Copyright © 2019 Lambda School. All rights reserved.
 //
 
 import XCTest
@@ -14,10 +14,10 @@ class GameAITests: XCTestCase {
     func testWinCheckingVertical1() {
         var board = GameBoard()
         /*
-        x o -
-        x o -
-        x - -
-        */
+         x o -
+         x o -
+         x - -
+         */
         try! board.place(mark: .x, on: (0, 0))
         try! board.place(mark: .o, on: (1, 0))
         try! board.place(mark: .x, on: (0, 1))
@@ -81,7 +81,7 @@ class GameAITests: XCTestCase {
     
     func testIncompleteGame() {
     }
-
+    
     func testCatsGame() {
     }
 }

@@ -2,8 +2,8 @@
 //  GameBoardTests.swift
 //  TicTacToeTests
 //
-//  Created by Andrew R Madsen on 9/11/18.
-//  Copyright © 2018 Lambda School. All rights reserved.
+//  Created by Angel Buenrostro on 3/6/19.
+//  Copyright © 2019 Lambda School. All rights reserved.
 //
 
 import XCTest
@@ -13,7 +13,7 @@ class GameBoardTests: XCTestCase {
     
     func testCreatingEmptyBoard() {
         let board = GameBoard()
-
+        
         for x in 0..<3 {
             for y in 0..<3 {
                 XCTAssertNil(board[(x, y)])
@@ -57,5 +57,5 @@ class GameBoardTests: XCTestCase {
         try! board.place(mark: .x, on: (2, 2))
         XCTAssertTrue(board.isFull)
     }
-
+    
 }

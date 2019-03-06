@@ -13,14 +13,14 @@
 		9DA41C462148ABB5001A3F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA41C442148ABB5001A3F45 /* LaunchScreen.storyboard */; };
 		9DA41C5D2148AC00001A3F45 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C5C2148AC00001A3F45 /* GameViewController.swift */; };
 		9DA41C612148AE13001A3F45 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C602148AE13001A3F45 /* GameBoard.swift */; };
-		9DA41C652148AE6D001A3F45 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C622148AE68001A3F45 /* GameBoardTests.swift */; };
 		9DA41C672148B945001A3F45 /* GameAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C662148B945001A3F45 /* GameAI.swift */; };
-		9DA41C692148B9AC001A3F45 /* GameAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C682148B9AC001A3F45 /* GameAITests.swift */; };
 		9DA41C712148DE1B001A3F45 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA41C702148DE1B001A3F45 /* BoardViewController.swift */; };
+		A2E39A9022309189006BA001 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E39A8F22309189006BA001 /* GameBoardTests.swift */; };
+		A2E39A94223091C7006BA001 /* GameAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E39A93223091C7006BA001 /* GameAITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9DA41C572148ABEE001A3F45 /* PBXContainerItemProxy */ = {
+		A2E39A8A22309174006BA001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9DA41C302148ABB4001A3F45 /* Project object */;
 			proxyType = 1;
@@ -36,14 +36,14 @@
 		9DA41C422148ABB5001A3F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA41C452148ABB5001A3F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA41C472148ABB5001A3F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DA41C522148ABED001A3F45 /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DA41C562148ABEE001A3F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA41C5C2148AC00001A3F45 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9DA41C602148AE13001A3F45 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
-		9DA41C622148AE68001A3F45 /* GameBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
 		9DA41C662148B945001A3F45 /* GameAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAI.swift; sourceTree = "<group>"; };
-		9DA41C682148B9AC001A3F45 /* GameAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAITests.swift; sourceTree = "<group>"; };
 		9DA41C702148DE1B001A3F45 /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		A2E39A8522309174006BA001 /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E39A8922309174006BA001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E39A8F22309189006BA001 /* GameBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
+		A2E39A93223091C7006BA001 /* GameAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA41C4F2148ABED001A3F45 /* Frameworks */ = {
+		A2E39A8222309174006BA001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA41C3A2148ABB4001A3F45 /* TicTacToe */,
-				9DA41C532148ABED001A3F45 /* TicTacToeTests */,
+				A2E39A8622309174006BA001 /* TicTacToeTests */,
 				9DA41C392148ABB4001A3F45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA41C382148ABB4001A3F45 /* TicTacToe.app */,
-				9DA41C522148ABED001A3F45 /* TicTacToeTests.xctest */,
+				A2E39A8522309174006BA001 /* TicTacToeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,12 +106,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		9DA41C532148ABED001A3F45 /* TicTacToeTests */ = {
+		A2E39A8622309174006BA001 /* TicTacToeTests */ = {
 			isa = PBXGroup;
 			children = (
-				9DA41C622148AE68001A3F45 /* GameBoardTests.swift */,
-				9DA41C682148B9AC001A3F45 /* GameAITests.swift */,
-				9DA41C562148ABEE001A3F45 /* Info.plist */,
+				A2E39A8922309174006BA001 /* Info.plist */,
+				A2E39A8F22309189006BA001 /* GameBoardTests.swift */,
+				A2E39A93223091C7006BA001 /* GameAITests.swift */,
 			);
 			path = TicTacToeTests;
 			sourceTree = "<group>";
@@ -136,22 +136,22 @@
 			productReference = 9DA41C382148ABB4001A3F45 /* TicTacToe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9DA41C512148ABED001A3F45 /* TicTacToeTests */ = {
+		A2E39A8422309174006BA001 /* TicTacToeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA41C592148ABEE001A3F45 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */;
+			buildConfigurationList = A2E39A8C22309174006BA001 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */;
 			buildPhases = (
-				9DA41C4E2148ABED001A3F45 /* Sources */,
-				9DA41C4F2148ABED001A3F45 /* Frameworks */,
-				9DA41C502148ABED001A3F45 /* Resources */,
+				A2E39A8122309174006BA001 /* Sources */,
+				A2E39A8222309174006BA001 /* Frameworks */,
+				A2E39A8322309174006BA001 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9DA41C582148ABEE001A3F45 /* PBXTargetDependency */,
+				A2E39A8B22309174006BA001 /* PBXTargetDependency */,
 			);
 			name = TicTacToeTests;
 			productName = TicTacToeTests;
-			productReference = 9DA41C522148ABED001A3F45 /* TicTacToeTests.xctest */;
+			productReference = A2E39A8522309174006BA001 /* TicTacToeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -160,15 +160,16 @@
 		9DA41C302148ABB4001A3F45 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Lambda School";
 				TargetAttributes = {
 					9DA41C372148ABB4001A3F45 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					9DA41C512148ABED001A3F45 = {
-						CreatedOnToolsVersion = 9.4.1;
+					A2E39A8422309174006BA001 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 9DA41C372148ABB4001A3F45;
 					};
 				};
@@ -187,7 +188,7 @@
 			projectRoot = "";
 			targets = (
 				9DA41C372148ABB4001A3F45 /* TicTacToe */,
-				9DA41C512148ABED001A3F45 /* TicTacToeTests */,
+				A2E39A8422309174006BA001 /* TicTacToeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,7 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA41C502148ABED001A3F45 /* Resources */ = {
+		A2E39A8322309174006BA001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,22 +226,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA41C4E2148ABED001A3F45 /* Sources */ = {
+		A2E39A8122309174006BA001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA41C652148AE6D001A3F45 /* GameBoardTests.swift in Sources */,
-				9DA41C692148B9AC001A3F45 /* GameAITests.swift in Sources */,
+				A2E39A9022309189006BA001 /* GameBoardTests.swift in Sources */,
+				A2E39A94223091C7006BA001 /* GameAITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9DA41C582148ABEE001A3F45 /* PBXTargetDependency */ = {
+		A2E39A8B22309174006BA001 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9DA41C372148ABB4001A3F45 /* TicTacToe */;
-			targetProxy = 9DA41C572148ABEE001A3F45 /* PBXContainerItemProxy */;
+			targetProxy = A2E39A8A22309174006BA001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,41 +415,49 @@
 			};
 			name = Release;
 		};
-		9DA41C5A2148ABEE001A3F45 /* Debug */ = {
+		A2E39A8D22309174006BA001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = HEVSJ2C5DD;
 				INFOPLIST_FILE = TicTacToeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.TicTacToeTests;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = angel.TicTacToeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
 			};
 			name = Debug;
 		};
-		9DA41C5B2148ABEE001A3F45 /* Release */ = {
+		A2E39A8E22309174006BA001 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = HEVSJ2C5DD;
 				INFOPLIST_FILE = TicTacToeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.TicTacToeTests;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = angel.TicTacToeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
 			};
@@ -475,11 +484,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DA41C592148ABEE001A3F45 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
+		A2E39A8C22309174006BA001 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DA41C5A2148ABEE001A3F45 /* Debug */,
-				9DA41C5B2148ABEE001A3F45 /* Release */,
+				A2E39A8D22309174006BA001 /* Debug */,
+				A2E39A8E22309174006BA001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
